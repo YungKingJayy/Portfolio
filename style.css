@@ -89,7 +89,7 @@ a {
 
 #mobile-nav-toggle {
   position: absolute;
-  z-index: 2000;
+  z-index: 1;
   right: 0;
   top: 40%;
   transform: translate(-50%, -50%);
@@ -138,13 +138,34 @@ a {
   background-color: var(--dark-blue);
   width: 100%;
   padding: 0.75rem 2.625rem;
+  cursor: pointer;
+}
+
+#main-text-btn:hover,
+#main-text-btn:focus {
+  background-color: var(--white);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+#main-text-btn:active {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: 2px solid var(--dark-blue);
 }
 
 #start-collab {
   width: 100%;
   margin: auto;
-  background-color: var(--dark-blue);
+  background-color: transparent;
   color: var(--white);
+  font-weight: 500;
+}
+
+#main-text-btn:hover #start-collab,
+#main-text-btn:focus #start-collab,
+#main-text-btn:active #start-collab {
+  color: var(--dark-blue);
 }
 
 /* -- Main-Bg -- */
