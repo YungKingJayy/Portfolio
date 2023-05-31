@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 PORTFOLIO <a name="about-project"></a>
+# 📖 MY PORTFOLIO <a name="about-project"></a>
 
-**Hello Microverse** is a simple page with a h1 that is styled
+**My Portfolio** showcases my skills and projects I have worked on. It also has a contact form for anyone who wants to reach out to me.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,7 +64,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Styled Header]**
+- **[Information about me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +87,7 @@ Clone this repository to your desired folder:
 Example commands:
 
   cd my-folder
-  git clone https://github.com/YungKingJayy/Hello-Microverse.git
+  git clone https://github.com/YungKingJayy/Portfolio.git
 
 
 ### Install
