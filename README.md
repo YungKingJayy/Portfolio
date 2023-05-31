@@ -102,8 +102,8 @@ Open index.html in your favorite browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Functionalities will be added using javascript]**
-- [ ] **[Styling for desktop view will be added]**
+- [ ] **Functionalities will be added using javascript**
+- [ ] **Styling for desktop view will be added**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
