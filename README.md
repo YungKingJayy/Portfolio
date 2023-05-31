@@ -37,32 +37,9 @@
   <li>CSS</li>
 </ul>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[Information about me]**
 
@@ -105,13 +82,7 @@ Open in Browser
 
 ### Deployment
 
-You can deploy this project using:
-
-<ul>
-  <li>Heroku</li>
-  <li>Netlify</li>
-  <li>GitHub Pages</li>
-</ul>
+Open index.html in your favorite browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,9 +102,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[]**
-- [ ] **[]**
-- [ ] **[]**
+- [ ] **[Functionalities will be added using javascript]**
+- [ ] **[Styling for desktop view will be added]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
