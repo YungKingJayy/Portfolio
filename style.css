@@ -1,9 +1,157 @@
-:root {
-    /* -- Font Families -- */
-    --playfair-display: 'Playfair Display', serif;
-    --poppins: 'Poppins', sans-serif;
+/* ----------------- */
 
-    /* -- Colors -- */
-    --white: #FFFFFF;
-    --dark-blue: #1A2236;
+/* Custom Properties */
+
+/* ----------------- */
+
+:root {
+  /* -- Font Families -- */
+  --playfair-display: 'Playfair Display', serif;
+  --poppins: 'Poppins', sans-serif;
+
+  /* -- Colors -- */
+  --white: #fff;
+  --dark-blue: #1a2236;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+body {
+  font-family: var(--poppins);
+  color: var(--dark-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+h1 {
+  font-family: var(--playfair-display);
+  font-size: 3rem;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ----------------- */
+
+/* Header */
+
+/* ----------------- */
+
+#header {
+  position: relative;
+}
+
+.shapes {
+  width: 30%;
+}
+
+#mobile-nav-toggle {
+  position: absolute;
+  z-index: 2000;
+  right: 0;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 1.5rem;
+  aspect-ratio: 1;
+  background: transparent;
+  background-image: url(./assets/images/ic_menu.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ----------------- */
+
+/* Main */
+
+/* ----------------- */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  gap: 1.5rem;
+}
+
+/* -- Main-Text -- */
+
+.main-text {
+  padding: 1rem;
+  flex-basis: 40%;
+}
+
+#main-text-name {
+  line-height: 100%;
+  margin-bottom: 1.0625rem;
+}
+
+#main-text-info {
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.3725rem;
+}
+
+#main-text-btn {
+  background-color: var(--dark-blue);
+  width: 100%;
+  padding: 0.75rem 2.625rem;
+}
+
+#start-collab {
+  width: 100%;
+  margin: auto;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+/* -- Main-Bg -- */
+
+.main-bg {
+  flex-basis: 30%;
+  background-image: url(./assets/images/image_geometry_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
