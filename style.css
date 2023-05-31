@@ -1,0 +1,9 @@
+:root {
+    /* -- Font Families -- */
+    --playfair-display: 'Playfair Display', serif;
+    --poppins: 'Poppins', sans-serif;
+
+    /* -- Colors -- */
+    --white: #FFFFFF;
+    --dark-blue: #1A2236;
+}
