@@ -12,6 +12,7 @@
   /* -- Colors -- */
   --white: #fff;
   --dark-blue: #1a2236;
+  --light-blue: #98dede;
 }
 
 *,
@@ -111,7 +112,7 @@ a {
 #main {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 65vh;
   gap: 1.5rem;
 }
 
@@ -171,8 +172,96 @@ a {
 /* -- Main-Bg -- */
 
 .main-bg {
-  flex-basis: 30%;
+  flex-basis: 40%;
   background-image: url(./assets/images/image_geometry_2.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+/* ------ */
+
+/* Works */
+
+/* ----- */
+
+#projects {
+  padding: 1.5rem 1rem;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.grid-top {
+  height: 186px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#img-1 {
+  background-image: url(./assets/images/Rectangle1.png);
+}
+
+#img-2 {
+  background-image: url(./assets/images/Rectangle2.png);
+}
+
+#img-3 {
+  background-image: url(./assets/images/Rectangle3.png);
+}
+
+#img-4 {
+  background-image: url(./assets/images/Rectangle4.png);
+}
+
+#img-5 {
+  background-image: url(./assets/images/Rectangle5.png);
+}
+
+#img-6 {
+  background-image: url(./assets/images/Rectangle6.png);
+}
+
+.grid-bottom {
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
+
+.project-name {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.stacks {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0;
+  margin-bottom: 1.3rem;
+}
+
+.stacks > li {
+  background-color: var(--light-blue);
+  list-style: none;
+  font-weight: 300;
+  font-size: 10.33px;
+  padding: 0.4rem 0.625rem;
+}
+
+.project-btn {
+  background-color: var(--dark-blue);
+  border: 1px solid var(--white);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.project-btn > p {
+  color: var(--white);
+  font-size: 1rem;
 }
