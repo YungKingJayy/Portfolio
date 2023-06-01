@@ -13,6 +13,9 @@
   --white: #fff;
   --dark-blue: #1a2236;
   --light-blue: #98dede;
+  --blue: #1c528a;
+  --red: #e2505c;
+  --yellow: #febf52;
 }
 
 *,
@@ -264,4 +267,97 @@ a {
 .project-btn > p {
   color: var(--white);
   font-size: 1rem;
+}
+
+/* ----- */
+
+/* About */
+
+/* ----- */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6875rem;
+  padding-bottom: 1rem;
+}
+
+.about-top {
+  padding: 3rem 1rem;
+  padding-bottom: 0;
+}
+
+#about-top-text {
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.3725rem;
+}
+
+#cv-btn {
+  background-color: var(--dark-blue);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  padding: 0.75rem 2.625rem;
+  cursor: pointer;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.about-bottom {
+  display: grid;
+  gap: 1.6875rem;
+  padding: 0 1rem;
+  color: var(--white);
+}
+
+.about-bottom-info {
+  position: relative;
+  padding: 3rem;
+}
+
+.about-bottom-header {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 1.313rem;
+}
+
+.about-bottom-info > ul {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3.313rem;
+}
+
+.about-bottom-info > ul > li {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 600;
+  list-style-position: inside;
+}
+
+.about-bottom-info > ul > li > span {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+#languages {
+  background-color: var(--blue);
+}
+
+#frameworks {
+  background-color: var(--red);
+}
+
+#skills {
+  background-color: var(--yellow);
+}
+
+.about-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
