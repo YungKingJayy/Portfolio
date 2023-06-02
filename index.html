@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
@@ -16,24 +16,164 @@
             <img src="./assets/images/image_geometry_1.png" alt="shapes" class="shapes">
         </div>
         <nav>
-            <button id="mobile-nav-toggle"></button>
+            <button type="button" id="mobile-nav-toggle"></button>
         </nav>
     </header>
-
-    <main id="main">
-        <section class="main-text">
-            <h1 id="main-text-name">Mcjethro<br>Kalu</h1>
-            <p id="main-text-info">
-                Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.
-                <br><br>
-                If you like what you see and have a project you need coded, don’t hesitate to contact me.
-            </p>
-            <button id="main-text-btn">
-                <a href="#" id="start-collab">Start collaboration</a>
-            </button>
+    <main>
+        <!-- Main Section -->
+        <section id="main">
+            <div class="main-text">
+                <h1 id="main-text-name">Mcjethro<br>Kalu</h1>
+                <p id="main-text-info">
+                    Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.
+                    <br><br>
+                    If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                </p>
+                <button type="button" id="main-text-btn">
+                    <a href="#" id="start-collab">Start collaboration</a>
+                </button>
+            </div>
+            
+            <div class="main-bg"></div>
         </section>
-        
-        <section class="main-bg"></section>
+        <!-- Works Section -->
+        <section class="works">
+            <h1 id="projects">Projects</h1>
+            <div class="grid-container">
+                <div class="grid-top" id="img-1"></div>
+                <div class="grid-bottom">
+                    <h2 class="project-name">Project name goes here</h2>
+                    <ul class="stacks">
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button type="button" class="project-btn">
+                        <p>See this project</p>
+                        <img src="./assets/images/ic_arrow_right.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-top" id="img-2"></div>
+                <div class="grid-bottom">
+                    <h2 class="project-name">Project name goes here</h2>
+                    <ul class="stacks">
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button type="button" class="project-btn">
+                        <p>See this project</p>
+                        <img src="./assets/images/ic_arrow_right.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-top" id="img-3"></div>
+                <div class="grid-bottom">
+                    <h2 class="project-name">Project name goes here</h2>
+                    <ul class="stacks">
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button type="button" class="project-btn">
+                        <p>See this project</p>
+                        <img src="./assets/images/ic_arrow_right.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-top" id="img-4"></div>
+                <div class="grid-bottom">
+                    <h2 class="project-name">Project name goes here</h2>
+                    <ul class="stacks">
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button type="button" class="project-btn">
+                        <p>See this project</p>
+                        <img src="./assets/images/ic_arrow_right.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-top" id="img-5"></div>
+                <div class="grid-bottom">
+                    <h2 class="project-name">Project name goes here</h2>
+                    <ul class="stacks">
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button type="button" class="project-btn">
+                        <p>See this project</p>
+                        <img src="./assets/images/ic_arrow_right.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-top" id="img-6"></div>
+                <div class="grid-bottom">
+                    <h2 class="project-name">Project name goes here</h2>
+                    <ul class="stacks">
+                        <li>HTML/CSS</li>
+                        <li>Ruby on Rails</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button type="button" class="project-btn">
+                        <p>See this project</p>
+                        <img src="./assets/images/ic_arrow_right.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-top">
+                <h1>About</h1>
+                <p id="about-top-text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                <button id="cv-btn">
+                    <p>Get my CV</p>
+                    <img src="./assets/images/ic_download.png" alt="get cv">
+                </button>
+            </div>
+            <div class="about-bottom">
+                <div class="about-bottom-info" id="languages">
+                    <h2 class="about-bottom-header">Languages</h2>
+                    <ul class="about-bottom-list">
+                        <li><span>JavaScript(ES5/ES6)</span></li>
+                        <li><span>Ruby</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                    </ul>
+                    <img src="./assets/images/ic_languages_mob.png" class="about-shape" alt="shape">
+                </div>
+                <div class="about-bottom-info" id="frameworks">
+                    <h2 class="about-bottom-header">Frameworks</h2>
+                    <ul class="about-bottom-list">
+                        <li><span>React.js</span></li>
+                        <li><span>Ruby on rails</span></li>
+                        <li><span>RSpec</span></li>
+                        <li><span>Capibara</span></li>
+                    </ul>
+                    <img src="./assets/images/ic_framework.png" class="about-shape" alt="shape">
+                </div>
+                <div class="about-bottom-info" id="skills">
+                    <h2 class="about-bottom-header">Skills</h2>
+                    <ul class="about-bottom-list">
+                        <li><span>Database Management</span></li>
+                        <li><span>CLI</span></li>
+                        <li><span>API Design</span></li>
+                        <li><span>Version Control</span></li>
+                        <li><span>Web Development</span></li>
+                    </ul>
+                    <img src="./assets/images/ic_skills.png" class="about-shape" alt="shape">
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
